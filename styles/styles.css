@@ -138,11 +138,10 @@ nav{
     padding: 15px 30px 60px;
     justify-content: center;
     align-items: center;
-    /* margin: 100px 200px; */
-    border: 1px solid red;
+    
 }
 .deals-iteme {
-    border: 1px solid red;
+ 
 }
 .yemail-id {
     height: 60px;
