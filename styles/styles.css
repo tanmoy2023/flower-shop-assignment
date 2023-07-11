@@ -55,18 +55,34 @@ nav{
 }
 .flower-list{
     display: flex;
-    padding: 15px 15px 15px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-container {
+    height: 500px;
+   
 }
 
 .flower-iteme{
-    padding: 30px 30px;
+    padding: 10px 10px;
+    border-radius: 300px 300px 0px 0px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .service-list{
     display: flex;
-    padding: 0;
+    justify-content: space-around;
+    padding: 20px;
+    
 }
 
+.service-img {
+    position: relative;
+}
 .text-collor{
     color: #E55473;
 }
@@ -74,6 +90,9 @@ nav{
 .sing{background-color: #db85ac;
     background-repeat: no-repeat;
     background-position: bottom right;
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
 }
 
 .sing-headr{
@@ -94,12 +113,15 @@ nav{
 
 .instagram-list{
     display: flex;
+    gap: 10px;
     padding: 15px 15px 15px;
+    max-width: 100%;
 }
 
 .deals-flower{
     text-align: center;
     padding-top: 30px;
+    background-image: url('../images/Rectangle\ 9.png');
 }
 
 .deals-list{
@@ -112,3 +134,5 @@ nav{
     background-color: black;
     color: white;
 }
+
+
