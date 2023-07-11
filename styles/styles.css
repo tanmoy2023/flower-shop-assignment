@@ -67,6 +67,10 @@ nav{
     padding: 0;
 }
 
+.text-collor{
+    color: #E55473;
+}
+
 .sing{background-color: #db85ac;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -81,4 +85,30 @@ nav{
 .sing-pic{
     width: 500px;
     height: 620px;
+}
+
+.instagram-flower{
+    text-align: center;
+    padding-top: 30px; 
+}
+
+.instagram-list{
+    display: flex;
+    padding: 15px 15px 15px;
+}
+
+.deals-flower{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.deals-list{
+    display: flex;
+    padding: 15px 15px 15px;
+}
+
+.fs-footer{
+    text-align: center;
+    background-color: black;
+    color: white;
 }
