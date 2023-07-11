@@ -60,7 +60,7 @@ nav{
 }
 
 .img-container {
-    height: 500px;
+    height: 500px 200px;
    
 }
 
@@ -109,24 +109,46 @@ nav{
 .instagram-flower{
     text-align: center;
     padding-top: 30px; 
+    
 }
 
 .instagram-list{
     display: flex;
+    justify-content: center;
     gap: 10px;
     padding: 15px 15px 15px;
     max-width: 100%;
+    /* border: 1px solid red; */
 }
-
+.instagram-iteme {
+    width: 20%;
+}
+.instagram-iteme img {
+    width: 95%;
+}
 .deals-flower{
     text-align: center;
     padding-top: 30px;
     background-image: url('../images/Rectangle\ 9.png');
+    display: ;
 }
 
 .deals-list{
     display: flex;
-    padding: 15px 15px 15px;
+    padding: 15px 30px 60px;
+    justify-content: center;
+    align-items: center;
+    /* margin: 100px 200px; */
+    border: 1px solid red;
+}
+.deals-iteme {
+    border: 1px solid red;
+}
+.yemail-id {
+    height: 60px;
+}
+.yemail-id:focus {
+outline: none;
 }
 
 .fs-footer{
